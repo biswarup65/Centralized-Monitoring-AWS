@@ -102,13 +102,13 @@ IAM roles for secure access
 
 ## 📊 CloudWatch Centralized Dashboard
 
-![CloudWatch Dashboard]()
+![CloudWatch Dashboard](https://github.com/biswarup65/Centralized-Monitoring-AWS/blob/main/screenshots/cw-custom-dashboard.png)
 
 ---
 
 ## 📈 EC2 Instance CPU Metrics
 
-![EC2 CPU Metrics]()
+![EC2 CPU Metrics](https://github.com/biswarup65/Centralized-Monitoring-AWS/blob/main/screenshots/cpu-utilization-metrics-graph.png)
 
 ---
 
@@ -116,37 +116,43 @@ IAM roles for secure access
 
 ## 🔔 CPU Utilization Alarm
 
-![CPU Utilization Alarm]()
+![CPU Utilization Alarm](https://github.com/biswarup65/Centralized-Monitoring-AWS/blob/main/screenshots/cpu-utilization-cw.png)
 
 ---
 
-![CPU Utilization Alert]()
+![CPU Utilization Alert](https://github.com/biswarup65/Centralized-Monitoring-AWS/blob/main/screenshots/cw-alert-cpu-utilization.png)
 
 ---
 
 ## 🔔 Unhealthy target Alarms
 
-![Unhealthy target Alarm-1]()
+![Unhealthy target Alarm-1](https://github.com/biswarup65/Centralized-Monitoring-AWS/blob/main/screenshots/unhealthy-host-count-alarm-1.png)
 
 ---
 
-![Unhealthy target Alarm-2]()
+![Unhealthy target Alarm-2](https://github.com/biswarup65/Centralized-Monitoring-AWS/blob/main/screenshots/unhealthy-host-count-alarm-2.png)
 
 ---
 
-![Unhealthy target Alert]()
+![Unhealthy target Alert](https://github.com/biswarup65/Centralized-Monitoring-AWS/blob/main/screenshots/cw-alert-unhealthy-hostCount.png)
+
+---
+
+## 🔔 Auto Scaling Group Scaling Event Alarm
+
+![ASG Scaling event alarm](https://github.com/biswarup65/Centralized-Monitoring-AWS/blob/main/screenshots/asg-scaling-event-cw-graph.png)
 
 ---
 
 ## 📜 Auto Scaling Group Activity History
 
-![ASG Activity History]()
+![ASG Activity History](https://github.com/biswarup65/Centralized-Monitoring-AWS/blob/main/screenshots/asg-activity-history.png)
 
 ---
 
 ## 📁 S3 Logs Bucket
 
-![S3 Logs Bucket]()
+![S3 Logs Bucket](https://github.com/biswarup65/Centralized-Monitoring-AWS/blob/main/screenshots/s3-bucket-logs.png)
 
 ---
 
