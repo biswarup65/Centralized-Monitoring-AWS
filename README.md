@@ -174,6 +174,25 @@ This project demonstrates a **practical, monitoring and alerting AWS infrastruct
 
 It reflects **real-world cloud support responsibilities**, showcasing skills in system observability, alert handling, and operational monitoring.
 
+---
+
+## References
+
+- AWS Documentation: Amazon CloudWatch  
+  https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html
+
+- AWS Documentation: Monitoring with CloudWatch metrics  
+  https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/CloudWatch-Logs-Monitoring-CloudWatch-Metrics.html
+
+- AWS Documentation: Customized CloudWatch dashboard  
+  https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/create_dashboard.html
+
+- AWS Documentation: CloudWatch alarm  
+  https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/ConsoleAlarms.html
+  
+
+
+
 
 
 
