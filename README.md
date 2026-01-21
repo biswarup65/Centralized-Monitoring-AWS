@@ -1,6 +1,6 @@
 # 📊 Centralized Monitoring & Alerting System for AWS Infrastructure
 
-![Project Architecture]()
+![Project Architecture](https://github.com/biswarup65/Centralized-Monitoring-AWS/blob/main/screenshots/aws-architecture-centralized-monitoring-alerting-diagram.png)
 
 ## 📌 Project Overview
 
