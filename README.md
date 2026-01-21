@@ -8,6 +8,7 @@ This project implements a centralized monitoring and alerting system for AWS inf
 It focuses purely on monitoring, alerting, and visibility, which are core responsibilities of Cloud Engineers.
 
 The system monitors EC2 instances behind an Application Load Balancer and Auto Scaling Group, triggers alarms on critical events, and stores logs centrally in Amazon S3.
+
 ---
 
 ## 🏗️ Architecture Overview
@@ -21,6 +22,7 @@ The system monitors EC2 instances behind an Application Load Balancer and Auto S
 • Amazon CloudWatch (metrics, alarms, dashboards)
 
 ---
+
 ## 🔧 AWS Services Used
 
 ✅ Amazon EC2
@@ -34,11 +36,12 @@ The system monitors EC2 instances behind an Application Load Balancer and Auto S
 ✅ AWS Identity and Access Management (IAM)
 
 ✅ Amazon S3
+
 ---
 
 ## 🎯 Key Features
-📊 Monitoring
-
+## 📊 Monitoring
+```bash
 CloudWatch Dashboards for:
 
 EC2 CPU Utilization
@@ -50,9 +53,10 @@ ALB Request Count
 Healthy & Unhealthy Target Count
 
 ASG Instance Count
+```
 
-🚨 Alerting
-
+## 🚨 Alerting
+``` bash
 High CPU utilization alarm (> 50%)
 
 Unhealthy target detection
@@ -60,14 +64,16 @@ Unhealthy target detection
 Auto Scaling activity tracking
 
 Email notifications via SNS
-
-📁 Log Management
-
+```
+## 📁 Log Management
+```bash
 Application & system logs sent to CloudWatch Logs
 
 Centralized log storage in Amazon S3
----
 
 Amazon S3 for centralized log storage
 
 IAM roles for secure access
+```
+
+---
