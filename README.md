@@ -77,3 +77,100 @@ IAM roles for secure access
 ```
 
 ---
+
+## ⚙️ Implementation Steps 
+
+1️⃣ Created IAM role with CloudWatch and SSM permissions
+
+2️⃣ Launched EC2 instances with CloudWatch Agent installed
+
+3️⃣ Configured Application Load Balancer and Target Groups
+
+4️⃣ Created Auto Scaling Group with CPU-based scaling policy
+
+5️⃣ Built CloudWatch dashboards for centralized visibility
+
+6️⃣ Configured CloudWatch alarms and SNS notifications
+
+7️⃣ Exported logs from CloudWatch Logs to Amazon S3
+
+8️⃣ Tested alarms using CPU stress simulation
+
+---
+
+## 🖼️ CloudWatch Dashboard & AWS Console Snapshots
+
+## 📊 CloudWatch Centralized Dashboard
+
+![CloudWatch Dashboard]()
+
+---
+
+## 📈 EC2 Instance CPU Metrics
+
+![EC2 CPU Metrics]()
+
+---
+
+## 📢 CloudWatch Alarms (Triggered / OK State)
+
+## 🔔 CPU Utilization Alarm
+
+![CPU Utilization Alarm]()
+
+---
+
+![CPU Utilization Alert]()
+
+---
+
+## 🔔 Unhealthy target Alarms
+
+![Unhealthy target Alarm-1]()
+
+---
+
+![Unhealthy target Alarm-2]()
+
+---
+
+![Unhealthy target Alert]()
+
+---
+
+## 📜 Auto Scaling Group Activity History
+
+![ASG Activity History]()
+
+---
+
+## 📁 S3 Logs Bucket
+
+![S3 Logs Bucket]()
+
+---
+
+## 🧪 Testing & Validation
+
+▪ CPU stress testing triggered CloudWatch alarms
+
+▪ ASG scaled out based on CPU utilization
+
+▪ ALB health checks detected unhealthy instances
+
+▪ Dashboard metrics updated in real time
+
+---
+
+## ✅ Conclusion
+
+This project demonstrates a **practical, monitoring and alerting AWS infrastructure** using Amazon CloudWatch. By implementing centralized dashboards, proactive alarms, Auto Scaling activity tracking, and centralized log storage in Amazon S3, the solution provides **real-time visibility and early incident detection** across EC2, ALB, and ASG resources.
+
+It reflects **real-world cloud support responsibilities**, showcasing skills in system observability, alert handling, and operational monitoring.
+
+
+
+
+
+
+
